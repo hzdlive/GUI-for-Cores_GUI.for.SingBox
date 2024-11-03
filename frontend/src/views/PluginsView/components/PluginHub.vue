@@ -12,7 +12,7 @@ const list = ref<PluginType[]>([])
 const cacheFile = 'data/.cache/plugin-list.json'
 const hubUrl =
   'https://gh-proxy.extls.pp.ua/proxy/https://raw.githubusercontent.com/GUI-for-Cores/Plugin-Hub/main/plugins/generic.json'
-const gfsUrl = 'https://gh-proxy.extls.pp.ua/https://raw.githubusercontent.com/GUI-for-Cores/Plugin-Hub/main/plugins/gfs.json'
+const gfsUrl = 'https://gh-proxy.extls.pp.ua/proxy/https://raw.githubusercontent.com/GUI-for-Cores/Plugin-Hub/main/plugins/gfs.json'
 
 const { t } = useI18n()
 const { message } = useMessage()
