@@ -17,7 +17,7 @@ type RulesetHub = {
 const loading = ref(false)
 const rulesetHub = ref<RulesetHub>({ geosite: '', geoip: '', list: [] })
 const cacheFile = 'data/.cache/ruleset-list.json'
-const hubUrl = 'https://github.com/GUI-for-Cores/Ruleset-Hub/releases/download/latest/sing.json'
+const hubUrl = 'https://gh-proxy.extls.pp.ua/proxy/https://github.com/GUI-for-Cores/Ruleset-Hub/releases/download/latest/sing.json'
 
 const { t } = useI18n()
 const { alert } = useAlert()
